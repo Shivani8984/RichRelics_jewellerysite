@@ -1,0 +1,20 @@
+{
+  "name": "richrelics_jewellerysite",
+  "version": "1.0.0",
+  "description": "jewellery Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "richrelics_jewellerysite"
+  },
+  "author": "Shivani",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
