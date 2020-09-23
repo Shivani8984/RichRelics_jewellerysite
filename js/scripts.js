@@ -7,7 +7,7 @@ const showClass = "show";
  
 $(window).on("load resize", function() {
   if (this.matchMedia("(min-width: 768px)").matches) {
-    $dropdown.hover(
+     $dropdown.hover(
       function() {
         const $this = $(this);
         $this.addClass(showClass);
@@ -28,13 +28,5 @@ $(window).on("load resize", function() {
 
     $('.carousel').carousel();
 
-    $("#reserveButton").click(function(){
-        $('#reserveModal').modal('show');
-    });
-
-    $("#loginButton").click(function(){
-        $('#loginModal').modal('show');
-    });
-    
 });
 
