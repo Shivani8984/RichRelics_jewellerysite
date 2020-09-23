@@ -1,0 +1,33 @@
+
+    body {
+      line-height: 1.7;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: "Lato", sans-serif;
+  }
+  
+
+    
+  /*header message style*/
+    .msgContainer{
+      background-color:burlywood;
+      height: 50px;
+      padding:10px 45px;
+      display: flex;
+      box-sizing: inherit;
+      letter-spacing: 1pt;
+    }
+    .msgContainer .globalMessage-link{
+     color: white;
+     text-decoration: none;
+    }   
+    .headline{
+      font-style: italic;
+      font-size: 20px;
+    }
+    span.body{
+      font-size: 13px;
+    }
+     
+
+  
