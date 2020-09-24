@@ -24,7 +24,7 @@ $(window).on("load resize", function() {
     $dropdown.off("mouseenter mouseleave");
   }
 });
-    $('.carousel').carousel();
+   
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
     });
