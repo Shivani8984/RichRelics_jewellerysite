@@ -7,11 +7,7 @@ body {
 	min-width: 320px;
 }
 
-.container {
-	position: relative;
-	width: 1170px;
-	margin: 0 auto;
-}
+
 /* Header-------------------------------------*/
 #header .container {
 	height: 90px;
@@ -88,7 +84,22 @@ a .notification {
 .carousel-indicators li{
 	background-color:black;
 }
-/*--Footer-------------------*/
+/*Body----------------------------------------------*/
+.bannerrow{
+margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--Footer------------------------------------------*/
 .page-footer {
 	margin-top: 10rem;
 	border-top: 2px solid #e8e8e8;
