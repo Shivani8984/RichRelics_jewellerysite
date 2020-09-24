@@ -25,5 +25,8 @@ $(window).on("load resize", function() {
   }
 });
     $('.carousel').carousel();
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
 
 
