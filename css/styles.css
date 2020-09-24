@@ -7,32 +7,18 @@ body {
 	min-width: 320px;
 }
 
-
-/* Header-------------------------------------*/
-#header .container {
-	height: 90px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border-bottom: 2px solid #dcdcdc;
+#header{
+	border-bottom: 3px solid #dcdcdc;
 }
 
-#header .right-links {	
-	padding: 25px 0 0;
-	font-family: 'Work Sans';	
-}
-
-
-#header .right-links a {
-	font-family: 'Work Sans';	
-	color: #656567;
-	text-decoration: none;
-}
-
-.nav{
+#header .nav{
 	float: right;
 }
-.nav-item{
+#header .nav-item{
 	text-transform: uppercase;
+}
+#header .nav-item a{
+	color:#737375;
 }
 
 .dropdown-menu {
@@ -50,26 +36,19 @@ a .notification {
 	background-color:rgb(19, 230, 194);
 }
 /* Navigation-------------------------------------*/
-#menu {
-	text-align: center !important;
-	color: #737375;
-	font-size: 16px;
-	font-weight: 800;
+
+#menu .navbar-collapse{
+	margin-left: 10em;
 }
-#menu ul {
-	margin-bottom: 0.5rem;
+#menu a {
+	font-weight: 800;
+	color: #737375;
 }
 #menu li {
 	padding: 19px 19px 21px;
-	display: inline-block;
-	font-family: 'Work Sans';}
+}
 
-#menu a {
-	color: #737375;
-}
-#menu .container{
-	padding-left: 12rem;
-}
+
 /*Carousel----------------------------------------*/
 .prev-button {
 	color:gray;
