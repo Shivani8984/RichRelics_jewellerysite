@@ -51,9 +51,6 @@ a .notification {
 
 /* Navigation-------------------------------------*/
 
-#menu .navbar-collapse{
-	margin-left: 10em;
-}
 #menu a {
 	font-weight: 800;
 	color: #737375;
@@ -66,6 +63,10 @@ a .notification {
 	font-weight: 100;
 	margin-bottom: 0.5rem;
 }
+/*#navbarNav {
+	position: relative;
+	left: 22%;
+}*/
 
 
 /*Carousel----------------------------------------*/
@@ -129,4 +130,89 @@ html .elements-group-20 > *, html .elements-group-20 > *:first-child {
     margin-top: 20px;
     margin-left: 20px;
 }
+ /*---------- Product List page css --------*/
+ .jumbotron {
+	margin: 0;
+	padding: 30px;
+	background-image: linear-gradient(to right, #a7f0f0, #7fd3d6, #59d9f0);
+	color:black;	
+}
+.padding-y {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.card-header{
+	background-color: white;
+}
+.card-header .title {
+	margin-bottom: 0;
+	line-height: 1.5;
+}
+.sidebarTitle{
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+
+}
   
+  .filter-group {
+	border-bottom: 1px solid #e4e4e4; }
+	.filter-group .card-header {
+	  border-bottom: 0; }
+	.icon-control {
+		margin-top: 5px;
+		float: right;
+		font-size: 80%;
+	}
+
+	.list-menu {
+		list-style: none;
+		margin: 0;
+		padding-left: 0; }
+		.list-menu li {
+		  margin-bottom: 5px; }
+		.list-menu a {
+		  color: #343a40; }
+
+		  .card-product-grid {
+			margin-bottom: 20px; }
+			.card-product-grid .img-wrap {
+			  border-radius: 0.2rem 0.2rem 0 0;
+			   }
+			.card-product-grid .info-wrap {
+			  overflow: hidden;
+			  padding: 18px 20px; }
+			  .card-product-grid .fix-height {
+				height: 80px;
+				overflow: hidden; }
+
+.price-wrap .price{
+	font-weight: 600;
+	color: #212529; }
+  
+.price-wrap .price-old {
+	color: #969696;
+	margin-left: 3px;
+	font-size: 85%; }
+
+/*--- Image change on hover effect----*/
+	.overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		transition: 0.5s ease;
+		
+	  }
+	  
+	  .img-wrap:hover .overlay {
+		opacity: 1;
+	  }
+/*---------------*/	  
+
+	  
