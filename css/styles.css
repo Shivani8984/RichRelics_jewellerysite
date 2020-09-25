@@ -35,6 +35,20 @@ a .notification {
 	border-radius: 50%;
 	background-color:rgb(19, 230, 194);
 }
+
+#searchModal .modal-header {
+	background-color:turquoise;
+	color:gray; 
+	text-transform:capitalize;	
+}
+
+#loginModal .modal-header {
+	background-color:turquoise;
+}
+#createAccountModal .modal-header {
+	background-color:turquoise;
+}
+
 /* Navigation-------------------------------------*/
 
 #menu .navbar-collapse{
@@ -44,8 +58,13 @@ a .notification {
 	font-weight: 800;
 	color: #737375;
 }
-#menu li {
+#menu .nav-item {
 	padding: 19px 19px 21px;
+	text-transform: uppercase;
+}
+#menu .dropdown-item{
+	font-weight: 100;
+	margin-bottom: 0.5rem;
 }
 
 
