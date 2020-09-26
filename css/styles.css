@@ -226,6 +226,13 @@ a:hover{
     }
 /*---------------*/	  
 
+.product_title{
+	color: turquoise;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link{
+	color: turquoise;
+}
+
 /*-------Shopping Cart Page CSS*/
 .table-shopping-cart.table td, .table-shopping-cart.table th{
 	padding-left: 1.25rem;
