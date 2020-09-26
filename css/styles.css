@@ -226,4 +226,38 @@ a:hover{
     }
 /*---------------*/	  
 
-	  
+/*-------Shopping Cart Page CSS*/
+.table-shopping-cart.table td, .table-shopping-cart.table th{
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+}
+.itemside {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.itemside .info{
+	padding-left: 25px;
+}
+.itemside .aside{
+	position: relative;
+	flex-shrink: 0;
+}
+.table-shopping-cart .price-wrap{
+	line-height: 1.2;
+}
+.table-shopping-cart .price {
+	font-weight: bold;
+	margin-right: 5px;
+	display: block; }
+.dlist-align{
+	display: flex;
+	margin-bottom: 0px;
+}  
+.dlist-align dt{
+	width: 120px;
+	font-weight: normal;
+}
+.dlist-align dd{
+	flex-grow: 1;
+}
